@@ -13,7 +13,7 @@ class Rest_client extends CI_Controller {
                 
                 $data['get_user']=$this->api_connect_model->get_user(5);
                 
-                $data['post_user']=$this->api_connect_model->post_user(array('id'=>5,'name'=>'ww'));
+                $data['post_user']=$this->api_connect_model->post_user(array('id'=>6,'name'=>'ww'));
                 
                 $data['put_user']=$this->api_connect_model->put_user(array('name'=>'pp','email'=>'qq'));
                 
